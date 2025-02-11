@@ -1,135 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.12.2 on win32)" generated="2025-02-11T10:05:41.112208" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2 (Python 3.12.2 on win32)" generated="2025-02-11T10:20:02.063722" rpa="false" schemaversion="5">
 <suite id="s1" name="Mytest" source="d:\Mytest">
 <suite id="s1-s1" name="TestCase" source="d:\Mytest\TestCase">
 <suite id="s1-s1-s1" name="Quiz" source="d:\Mytest\TestCase\quiz.robot">
 <kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
-<msg time="2025-02-11T10:05:41.863641" level="INFO">Opening browser 'firefox' to base url 'http://automationexercise.com'.</msg>
+<msg time="2025-02-11T10:20:02.750525" level="INFO">Opening browser 'firefox' to base url 'http://automationexercise.com'.</msg>
 <arg>http://automationexercise.com</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-02-11T10:05:41.862350" elapsed="18.130586"/>
+<status status="PASS" start="2025-02-11T10:20:02.749525" elapsed="73.747084"/>
 </kw>
 <test id="s1-s1-s1-t1" name="Test Search Product" line="35">
 <kw name="Verify Home Page Loaded">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<msg time="2025-02-11T10:06:00.103874" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: WebDriver session does not exist, or is not active
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
-InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:460:5
-assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:538:13
-assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
-despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
-execute@chrome://remote/content/marionette/server.sys.mjs:289:16
-onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
-onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
-_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
-</msg>
-<msg time="2025-02-11T10:06:00.109105" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
-NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:706:5
-assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:538:13
-assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
-GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1879:15
-despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
-execute@chrome://remote/content/marionette/server.sys.mjs:289:16
-onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
-onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
-_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
-</msg>
 <arg>Home</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="FAIL" start="2025-02-11T10:05:59.997081" elapsed="0.126560">NoSuchWindowException: Message: Browsing context has been discarded
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
-NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:706:5
-assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:538:13
-assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
-GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1879:15
-despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
-execute@chrome://remote/content/marionette/server.sys.mjs:289:16
-onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
-onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
-_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
-</status>
+<status status="PASS" start="2025-02-11T10:21:16.505626" elapsed="0.045468"/>
 </kw>
-<status status="FAIL" start="2025-02-11T10:05:59.995908" elapsed="0.128736">NoSuchWindowException: Message: Browsing context has been discarded
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
-NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:706:5
-assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:538:13
-assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
-GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1879:15
-despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
-execute@chrome://remote/content/marionette/server.sys.mjs:289:16
-onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
-onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
-_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
-</status>
+<status status="PASS" start="2025-02-11T10:21:16.505626" elapsed="0.045468"/>
 </kw>
 <kw name="Click Products Button">
-<status status="NOT RUN" start="2025-02-11T10:06:00.125642" elapsed="0.000000"/>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-11T10:21:16.553304" level="INFO">Clicking element '//a[contains(text(),'Products')]'.</msg>
+<arg>${PRODUCTS_BTN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-11T10:21:16.553304" elapsed="4.016264"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${ALL_PRODUCTS_HEADER}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-11T10:21:20.569568" elapsed="0.040455"/>
+</kw>
+<status status="PASS" start="2025-02-11T10:21:16.553304" elapsed="4.056719"/>
 </kw>
 <kw name="Search For Product">
-<status status="NOT RUN" start="2025-02-11T10:06:00.125642" elapsed="0.000000"/>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-11T10:21:20.613535" level="INFO">Typing text 'Dress' into text field '//input[@id='search_product']'.</msg>
+<arg>${SEARCH_FIELD}</arg>
+<arg>${SEARCH_TERM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-11T10:21:20.612023" elapsed="0.169497"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-11T10:21:20.784607" level="INFO">Clicking element '//button[@id='submit_search']'.</msg>
+<arg>${SEARCH_BTN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-11T10:21:20.782530" elapsed="2.265869"/>
+</kw>
+<status status="PASS" start="2025-02-11T10:21:20.611022" elapsed="2.437377"/>
 </kw>
 <kw name="Verify Search Results">
-<status status="NOT RUN" start="2025-02-11T10:06:00.127113" elapsed="0.000000"/>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${SEARCHED_PRODUCTS_HEADER}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-11T10:21:23.048399" elapsed="0.021715"/>
 </kw>
-<status status="FAIL" start="2025-02-11T10:05:59.993911" elapsed="0.134250">NoSuchWindowException: Message: Browsing context has been discarded
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
-NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:706:5
-assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:538:13
-assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
-GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1879:15
-despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
-execute@chrome://remote/content/marionette/server.sys.mjs:289:16
-onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
-onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
-_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
-</status>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2025-02-11T10:21:23.094583" level="INFO">Element '//h2[contains(text(),'Searched Products')]' contains text 'SEARCHED PRODUCTS'.</msg>
+<arg>${SEARCHED_PRODUCTS_HEADER}</arg>
+<arg>SEARCHED PRODUCTS</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2025-02-11T10:21:23.070114" elapsed="0.024469"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2025-02-11T10:21:23.101290" level="INFO">Current page contains element '//div[@class='features_items']//div[@class='productinfo text-center']'.</msg>
+<arg>${PRODUCT_LIST}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2025-02-11T10:21:23.094583" elapsed="0.006707"/>
+</kw>
+<status status="PASS" start="2025-02-11T10:21:23.048399" elapsed="0.052891"/>
+</kw>
+<status status="PASS" start="2025-02-11T10:21:16.496609" elapsed="6.604681"/>
 </test>
 <kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-02-11T10:06:00.132571" elapsed="2.328426"/>
+<status status="PASS" start="2025-02-11T10:21:23.101290" elapsed="4.791173"/>
 </kw>
-<status status="FAIL" start="2025-02-11T10:05:41.171783" elapsed="21.289214"/>
+<status status="PASS" start="2025-02-11T10:20:02.118717" elapsed="85.774768"/>
 </suite>
-<status status="FAIL" start="2025-02-11T10:05:41.165795" elapsed="21.295202"/>
+<status status="PASS" start="2025-02-11T10:20:02.114309" elapsed="85.782222"/>
 </suite>
-<status status="FAIL" start="2025-02-11T10:05:41.122604" elapsed="21.338393"/>
+<status status="PASS" start="2025-02-11T10:20:02.072698" elapsed="85.826331"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Mytest" id="s1" pass="0" fail="1" skip="0">Mytest</stat>
-<stat name="TestCase" id="s1-s1" pass="0" fail="1" skip="0">Mytest.TestCase</stat>
-<stat name="Quiz" id="s1-s1-s1" pass="0" fail="1" skip="0">Mytest.TestCase.Quiz</stat>
+<stat name="Mytest" id="s1" pass="1" fail="0" skip="0">Mytest</stat>
+<stat name="TestCase" id="s1-s1" pass="1" fail="0" skip="0">Mytest.TestCase</stat>
+<stat name="Quiz" id="s1-s1-s1" pass="1" fail="0" skip="0">Mytest.TestCase.Quiz</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-02-11T10:06:00.103874" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: WebDriver session does not exist, or is not active
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
-InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:460:5
-assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:538:13
-assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
-despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
-execute@chrome://remote/content/marionette/server.sys.mjs:289:16
-onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
-onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
-_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
-</msg>
 </errors>
 </robot>
