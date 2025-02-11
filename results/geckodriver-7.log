@@ -1,0 +1,15 @@
+1738398110684	geckodriver	INFO	Listening on 127.0.0.1:62999
+1738398113760	mozrunner::runner	INFO	Running command: "C:\\Users\\ASUS\\.cache\\selenium\\firefox\\win64\\134.0.2\\firefox.exe" "--marionette" "--remote-debugging ... 00" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilebBFxvU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738398114939	Marionette	INFO	Marionette enabled
+1738398115318	Marionette	INFO	Listening on port 63010
+WebDriver BiDi listening on ws://127.0.0.1:63000
+Read port: 63010
+1738398115469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63000/devtools/browser/5c260e1b-6b77-4683-acc4-356ba1dcb7b2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1738398121859	Marionette	INFO	Stopped listening on port 63010
+Dynamically enable window occlusion 1

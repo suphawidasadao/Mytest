@@ -1,0 +1,19 @@
+1739242990560	geckodriver	INFO	Listening on 127.0.0.1:58712
+1739242993614	mozrunner::runner	INFO	Running command: "C:\\Users\\ASUS\\.cache\\selenium\\firefox\\win64\\135.0\\firefox.exe" "--marionette" "--remote-debugging-p ... 13" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileK49Egi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739242994457	Marionette	INFO	Marionette enabled
+1739242994699	Marionette	INFO	Listening on port 58724
+WebDriver BiDi listening on ws://127.0.0.1:58713
+Read port: 58724
+1739242994815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58713/devtools/browser/0c7e3427-d86c-4f55-b0f6-b79558ad23e1
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://fundingchoicesmessages.google.com/i/ca-pub-1677597403311019?href=https%3A%2F%2Fautomationexercise.com&ers=2, line 3: Script terminated by timeout at:
+_._F_toggles_initialize@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.L7ISxYa1gzc.es5.O/d=1/rs=AJlcJMxBrutsT8yw4h2vEkPmkN7OI5sgBw/m=kernel_loader,loader_js_executable:3:134
+@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.L7ISxYa1gzc.es5.O/d=1/rs=AJlcJMxBrutsT8yw4h2vEkPmkN7OI5sgBw/m=kernel_loader,loader_js_executable:3:163
+@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.en_US.L7ISxYa1gzc.es5.O/d=1/rs=AJlcJMxBrutsT8yw4h2vEkPmkN7OI5sgBw/m=kernel_loader,loader_js_executable:466:4
+
+1739243062125	Marionette	INFO	Stopped listening on port 58724
+Dynamically enable window occlusion 1
